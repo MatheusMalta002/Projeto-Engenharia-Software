@@ -9,6 +9,9 @@
   "workspaces": [
     "apps/*"
   ],
+    "engines": {
+    "node": ">=14 <15"
+  },
   "dependencies": {
     "bootstrap": "^5.3.1",
     "jwt-decode": "^3.1.2",
